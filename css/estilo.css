@@ -429,6 +429,47 @@ article .fim {
     width: 200px;
     max-height: 200px;
   }
+@media (max-width: 767px) {
+  .apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .apresentacao h2 {
+    margin-left: 0px;
+  }
+  article .p2 {
+    margin-left: -5px;
+  }
+  .experiencias {
+    display: flex;
+    flex-direction: column;
+  }
+  .experiencias .tit-mobile {
+    font-size: 48px;
+  }
+  .experiencias .card-trabalhos1,
+  .card-trabalhos2,
+  .card-trabalhos3 {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 0%;
+  }
+  .formacao .tit-mobile {
+    font-size: 48px;
+  }
+  .formacao div {
+    width: 90%;
+  }
+  .formacao div h4 {
+    font-size: 24px;
+  }
+  .contato p {
+    font-size: 24px;
+  }
+}
+
 
   .apresentacao h2 {
     font-size: 36px;
