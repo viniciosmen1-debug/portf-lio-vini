@@ -304,9 +304,6 @@ article .fim {
 }
 
 @media (max-width: 768px) {
-  body {
-        background: blue;
-    }
   nav p {
     display: none;
   }
@@ -415,9 +412,6 @@ article .fim {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  body {
-        background: green;
-    }
   nav p {
     margin-left: 50px;
   }
@@ -488,9 +482,6 @@ article .fim {
   }
 }
 @media (max-width: 767px) {
-  body {
-        background: red;
-    }
   .apresentacao {
     display: flex;
     flex-direction: column;
